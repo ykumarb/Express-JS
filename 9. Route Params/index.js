@@ -28,6 +28,9 @@ app.get('/ecom/products/iphones/:model/:color', (req, res) => {
 });
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 68bddd756e0abe52f87f242186ffc16c5f293891
 app.param('id', (req, res, next, id) => {
     console.log('This is a dynamic route parameter');
     next();
